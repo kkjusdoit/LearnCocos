@@ -42,7 +42,7 @@ export class UIManager {
         }
 
 
-        resources.load("ui/prefab" + name, Prefab, (err, prefab : Prefab) => {
+        resources.load("ui/prefab/" + name, Prefab, (err, prefab : Prefab) => {
             let panel = instantiate(prefab);
             this.uiRoot.addChild(panel);
             if (bringToTop){

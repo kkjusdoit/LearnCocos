@@ -14,7 +14,6 @@ export class UIStartup extends Component {
     }
 
     onBtnClick() {
-        console.error("onBtnClick");
         director.loadScene("game");
     }
 
