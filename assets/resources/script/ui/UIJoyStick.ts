@@ -1,5 +1,5 @@
 import { _decorator, CCFloat, Component, EventTouch, Input, input, math, Node, v3, Vec3 } from 'cc';
-import { VirtualInput } from './VirtualInput';
+import { VirtualInput } from '../VirtualInput';
 const { ccclass, property } = _decorator;
 
 @ccclass('UIJoyStick')
