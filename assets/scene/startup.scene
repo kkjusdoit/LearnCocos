@@ -29,7 +29,7 @@
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 29
+      "__id__": 30
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -60,7 +60,7 @@
     },
     "autoReleaseAssets": false,
     "_globals": {
-      "__id__": 33
+      "__id__": 34
     },
     "_id": "fbb5131b-6e4a-4553-bcaf-74a659a3d136"
   },
@@ -290,16 +290,16 @@
     "mountedComponents": [],
     "propertyOverrides": [
       {
-        "__id__": 24
-      },
-      {
-        "__id__": 26
+        "__id__": 25
       },
       {
         "__id__": 27
       },
       {
         "__id__": 28
+      },
+      {
+        "__id__": 29
       }
     ],
     "removedComponents": []
@@ -379,6 +379,9 @@
       },
       {
         "__id__": 23
+      },
+      {
+        "__id__": 24
       }
     ],
     "removedComponents": []
@@ -489,7 +492,17 @@
   {
     "__type__": "CCPropertyOverrideInfo",
     "targetInfo": {
-      "__id__": 25
+      "__id__": 16
+    },
+    "propertyPath": [
+      "_active"
+    ],
+    "value": false
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 26
     },
     "propertyPath": [
       "_name"
@@ -505,7 +518,7 @@
   {
     "__type__": "CCPropertyOverrideInfo",
     "targetInfo": {
-      "__id__": 25
+      "__id__": 26
     },
     "propertyPath": [
       "_lpos"
@@ -520,7 +533,7 @@
   {
     "__type__": "CCPropertyOverrideInfo",
     "targetInfo": {
-      "__id__": 25
+      "__id__": 26
     },
     "propertyPath": [
       "_lrot"
@@ -536,7 +549,7 @@
   {
     "__type__": "CCPropertyOverrideInfo",
     "targetInfo": {
-      "__id__": 25
+      "__id__": 26
     },
     "propertyPath": [
       "_euler"
@@ -556,7 +569,7 @@
     "instance": null,
     "targetOverrides": [
       {
-        "__id__": 30
+        "__id__": 31
       }
     ],
     "nestedPrefabInstanceRoots": [
@@ -574,7 +587,7 @@
       "__id__": 12
     },
     "sourceInfo": {
-      "__id__": 31
+      "__id__": 32
     },
     "propertyPath": [
       "_target"
@@ -583,7 +596,7 @@
       "__id__": 12
     },
     "targetInfo": {
-      "__id__": 32
+      "__id__": 33
     }
   },
   {
@@ -601,28 +614,28 @@
   {
     "__type__": "cc.SceneGlobals",
     "ambient": {
-      "__id__": 34
-    },
-    "shadows": {
       "__id__": 35
     },
-    "_skybox": {
+    "shadows": {
       "__id__": 36
     },
-    "fog": {
+    "_skybox": {
       "__id__": 37
     },
-    "octree": {
+    "fog": {
       "__id__": 38
     },
-    "skin": {
+    "octree": {
       "__id__": 39
     },
-    "lightProbeInfo": {
+    "skin": {
       "__id__": 40
     },
-    "postSettings": {
+    "lightProbeInfo": {
       "__id__": 41
+    },
+    "postSettings": {
+      "__id__": 42
     },
     "bakedWithStationaryMainLight": false,
     "bakedWithHighpLightmap": false
