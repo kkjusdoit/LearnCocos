@@ -73,6 +73,9 @@ export class Actor extends Component {
 
 
     changeState(state: StateDefine) {
+        if (state == this.curState && state != StateDefine.Hit) {
+            return;
+        }
         if (this.curState == StateDefine.Die) {
 
             return;
@@ -90,7 +93,7 @@ export class Actor extends Component {
         this.curState = state;
         console.log("changeState this.curState    " + this.curState);
 
-        this.skeletalAnimation.crossFade(this.curState, 0.3);
+        this.skeletalAnimation.crossFade(this.curState as string, 0.1);
     }
 
     respawn() {
